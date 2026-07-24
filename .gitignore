@@ -1,0 +1,43 @@
+# Konfigurasi lokal dan rahasia
+.env
+.env.*
+!.env.example
+
+config/database.local.php
+config/*.local.php
+config/secrets.php
+
+# Kunci dan sertifikat
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database lokal dan backup
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.sql.gz
+
+backup/
+backups/
+dumps/
+
+# Dependency PHP
+vendor/
+
+# Log dan cache
+*.log
+cache/
+tmp/
+temp/
+
+# Editor
+.vscode/
+.idea/
+
+# File bawaan sistem
+.DS_Store
+Thumbs.db
+desktop.ini
